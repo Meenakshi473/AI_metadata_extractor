@@ -3,7 +3,7 @@ from keybert import KeyBERT
 from transformers import pipeline
 import streamlit as st  # add this at the top
 import logging
-import pymupdf as fitz
+import fitz
 import docx
 from docx import Document
 
